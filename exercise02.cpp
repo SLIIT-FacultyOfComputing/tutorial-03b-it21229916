@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int volume(int height, int width, int length);
+int volume(int height1, int width1, int length1);
 
-int main() {
+
+int main()
+{
     int box1Height, box1Width, box1Length;
     int box2Height, box2Width, box2Length;
     int totalVolume, totalSurface;
@@ -31,3 +33,13 @@ int main() {
 }
 
 // Implement the Volume() function here
+
+int volume(int height, int width, int length)
+{
+  int vol;
+
+  vol = height * width * length;
+
+  return vol;
+}
+
